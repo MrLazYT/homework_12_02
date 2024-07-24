@@ -1,0 +1,45 @@
+div.blogs-container {
+  display: grid;
+  grid-template-columns: repeat(3, 33%);
+  width: 70%;
+  margin: auto;
+}
+
+div.publishing-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+label {
+  display: block;
+}
+
+textarea {
+  min-width: 400px;
+  min-height: 200px;
+  max-width: 400px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+textarea:hover {
+  border: 1px solid black;
+}
+
+textarea:focus {
+  border: 1px solid rgb(18, 135, 245);
+}
+
+form {
+  width: 40%;
+  margin: auto;
+}
+
+p.blog-content {
+  text-align: start;
+}
+
+.App {
+  text-align: center;
+}
